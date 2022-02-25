@@ -1,0 +1,36 @@
+.main-nav {
+  padding: 5px;
+  margin: 20px;
+  position: fixed;
+  background-color: white;
+  border-radius: 3px;
+}
+
+#side-menu {
+  background-color: #efefef;
+  width: 400px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all ease 0.3s;
+  padding: 20px 0;
+  font-size: 19px;
+  transform: translateX(-500px);
+
+  ul {
+    li {
+      padding: 20px 0;
+      border-bottom: 1px solid #ccc;
+      width: 100%;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:last-child {
+        border-bottom: none !important;
+      }
+    }
+  }
+}
