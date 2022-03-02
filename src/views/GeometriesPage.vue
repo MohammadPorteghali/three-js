@@ -45,6 +45,7 @@ export default {
     materialDebugger.add(material, "metalness").min(0).max(1).step(0.01);
     materialDebugger.add(material, "roughness").min(0).max(1).step(0.01);
     materialDebugger.addColor(material, "color");
+    materialDebugger.add(material, "wireframe");
 
     let object;
 
@@ -60,7 +61,6 @@ export default {
     cubeDebugger.add(object.position, "x", -3, 3, 0.01, "red cube X");
     cubeDebugger.add(object.position, "z", -3, 3, 0.01, "red cube Z");
     cubeDebugger.add(object, "visible");
-    cubeDebugger.add(material, "wireframe");
 
     /**
      * Sphere
