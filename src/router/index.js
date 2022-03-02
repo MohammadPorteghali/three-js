@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from "vue-router";
 import AnimationPage from "../views/AnimationPage.vue";
+import Geometries from "../views/GeometriesPage.vue";
 
 const routes = [
   {
     path: "/",
     name: "AnimationPage",
     component: AnimationPage,
+  },
+  {
+    path: "/geometries",
+    name: "Geometries",
+    component: Geometries,
   },
 ];
 

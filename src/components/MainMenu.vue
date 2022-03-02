@@ -21,7 +21,12 @@
     </button>
     <div id="side-menu" v-click-outside="hideSidebar">
       <ul>
-        <li>Animation</li>
+        <li>
+          <a href="/">Animation</a>
+        </li>
+        <li>
+          <a href="/geometries">Geometries</a>
+        </li>
       </ul>
     </div>
   </nav>
